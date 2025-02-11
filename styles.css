@@ -779,6 +779,7 @@ img {
 
 #footer {
   padding-top: 7em;
+  padding-bottom: 7em;
   background-color: #001233;
   color: var(--light);
   border-top: 1px solid rgba(245, 245, 245, 0.081);
@@ -799,6 +800,7 @@ img {
 }
 
 .socials-wrap {
+  margin-top: 1.5em;
   display: flex;
   align-items: center;
   gap: 0.5em;
@@ -813,16 +815,41 @@ img {
   display: flex;
   flex-direction: column;
   align-items: start;
-  font-size: 1.25em;
+  font-size: 1.125em;
   font-weight: 600;
   font-family: var(--space-grotesk);
+}
+
+.logo-contents_wrap p {
+  font-size: 1em;
+}
+
+.logo-contents_wrap {
+  max-width: 20em;
 }
 
 .footer-links_wrap a {
   font-family: var(--plus-jakarta-sans);
   font-weight: 400;
+  font-size: 16px;
+  opacity: 60%;
+}
+
+.copyright {
+  border-top: 1px solid rgba(245, 245, 245, 0.081);
+  background-color: #001233;
+  color: var(--light);
+  padding: 1.5em 0;
+}
+
+.copyright .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright p {
+  display: inline-block;
   font-size: 1em;
-  opacity: 50%;
 }
 
 /*------------- Tablet -------------*/
